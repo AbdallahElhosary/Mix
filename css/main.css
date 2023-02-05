@@ -224,7 +224,7 @@ aside.left {
 .app{
     padding: 100px 0;
     background-color: yellow;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .app .container{
     display: flex;
@@ -259,7 +259,6 @@ aside.left {
 .app .card img.shoes{
     width: 270px;
     margin: 10px auto;
-    transition: 0.5s;
 }
 .app .card .price .left i{
     cursor: pointer;
