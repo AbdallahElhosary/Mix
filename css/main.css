@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/* start flipper  */
+.color-flipper {
+    height: 100vh;
+    letter-spacing: 3px;
+}
+
+.color-flipper .header {
+    box-shadow: 1px 6px 20px 2px #ddd;
+}
+
+.color-flipper .buttons div {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.color-flipper .buttons div:hover {
+    color: #49a6e9;
+}
+
+.color-flipper main {
+    background-color: #dddddd;
+}
+
+/* end flipper  */
+/* Start Counter */
+.counter {
+    background-color: #eee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.counter h2 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.counter p {
+    font-size: 80px;
+    height: 120px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.buttons button {
+    font-weight: bold;
+}
+
+/* End Counter */
+
+/* start numbers  */
+.numbers {
+    height: 200px;
+}
+
+.numbers .one {
+    position: relative;
+}
+
+.numbers .one::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background-color: green;
+    border-bottom-right-radius: 5px;
+    width: 300px;
+    height: 5px;
+}
+
+.numbers .one:nth-child(2)::before {
+    background-color: #e91e63;
+}
+
+.numbers .one:first-child::before {
+    background-color: #8bc34a;
+}
+
+.numbers .one:last-child::before {
+    background-color: #ff9800;
+}
+
+/* end numbers  */
+
+/* start sidebar  */
+.sidebar {
+    position: relative;
+}
+
+.sidebar .icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    top: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.sidebar aside {
+    box-shadow: 0px 9px 17px 0px #343030;
+    letter-spacing: 5px;
+    position: absolute;
+    left: -400px;
+    top: 0;
+    transition: 0.5s;
+}
+
+aside.left {
+    left: 0;
+}
+
+.close-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.close-icon:hover {
+    transform: rotateZ(360deg);
+}
+
+.sidebar aside .list p {
+    transition: 0.5s;
+}
+
+.sidebar aside .list p:hover {
+    cursor: pointer;
+    background-color: #6c757d;
+    transform: translateX(3deg);
+}
+
+/* end sidebar  */
+/* start navbar  */
+.navbar>* {
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+
+.navbar ul li,
+.navbar .icons i {
+    transition: 0.3s;
+}
+
+.navbar ul li:hover {
+    color: #0d6efdad;
+}
+
+.navbar .icons i:hover {
+    opacity: 0.5;
+}
+
+/* end navbar  */
+
+/* start modal container  */
+.modal-container {
+    background-image: url(/imgs/img-3.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container .text {
+    width: 800px;
+    padding: 100px 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.modal-container.overlay{
+    position: relative;
+}
+.modal-container.overlay::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2a7db94f;
+}
+.modal-container .text h2 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.modal-container .overflow{
+    position: absolute;
+    width: 800px;
+    height: 430px;
+    padding: 100px 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.modal-container .overflow i{
+    right: 20px;
+    top:15px;
+    color: red;
+    cursor: pointer;
+}
+.modal-container .overflow i:hover{
+    transform: scale(1.4);
+}
+/* Start Card  */
+.app{
+    padding: 100px 0;
+    background-color: yellow;
+    transition: 0.5s;
+}
+.app .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app .container .card{
+    width: 500px;
+    padding:20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.app .card .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app .card .header img{
+    width: 80px;
+    cursor: pointer;
+
+}
+.app .card .header i{
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.app .card .header i:hover{
+    color: red;
+}
+.app .card img.shoes{
+    width: 270px;
+    margin: 10px auto;
+    transition: 0.5s;
+}
+.app .card .price .left i{
+    cursor: pointer;
+}
+/* end Card  */

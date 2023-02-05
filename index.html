@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tutroials</title>
+</head>
+
+<body>
+
+    <!-- Start Color Flipper  -->
+    <div class="color-flipper">
+        <div class="header d-flex justify-content-around pt-2 pb-2 align-items-center">
+            <h4 class="text-primary">Color flipper</h4>
+            <div class="buttons d-flex align-items-center justify-content-center">
+                <div class="simple px-4 fs-4">Simple</div>
+                <div class="hex px-4 fs-4">Hex</div>
+            </div>
+        </div>
+        <main class="d-flex justify-content-center align-items-center flex-column " style="height: calc(100vh - 50px);">
+            <p class="bg-dark text-light p-2 fs-1 rounded-3 mb-5">Background Color : #DDDDDD</p>
+            <button class="btn  btn-outline-danger text-uppercase px-5 fs-4">Click Me</button>
+        </main>
+    </div>
+    <!-- End Color Flipper  -->
+    <!-- Start Counter  -->
+    <div class="counter">
+        <h2>Counter</h2>
+        <p></p>
+        <div class="buttons">
+            <button class="decrease btn btn-primary mx-2 px-3">DECREASE</button>
+            <button class="reset btn btn-outline-dark  px-3">RESET</button>
+            <button class="increase btn btn-primary mx-2 px-3">INCREASE</button>
+        </div>
+    </div>
+    <!-- End Counter  -->
+
+
+    <!-- Start Numbers -->
+    <div class="container pt-5 pb-5 numbers d-flex justify-content-around">
+        <div class="one col-lg-4 col-md-4 col-sm-12 px-3">
+            <p class="number1 fs-1 fw-bold mb-1">0</p>
+            <span class="fs-5">Succeeded Projects</span>
+        </div>
+        <div class="one col-lg-4 col-md-4 col-sm-12 px-3">
+            <p class="number2 fs-1 fw-bold mb-1">0</p>
+            <span class="fs-5">Working Hours Spent</span>
+        </div>
+        <div class="one col-lg-4 col-md-4 col-sm-12 px-3">
+            <p class="number3 fs-1 fw-bold mb-1">0</p>
+            <span class="fs-5">Happy Clients</span>
+        </div>
+    </div>
+
+    <!-- end numbers  -->
+
+    <!-- Start Sidebar -->
+    <div class="sidebar position-relative" style="height: 100vh;background-color: #ddd;">
+        <i class="icon fs-1 text-primary fa-solid fa-bars"></i>
+        <aside class="p-0" style="width: 400px;background-color: white;height: 100%;">
+            <div class="">
+                <div class="header d-flex justify-content-between px-3 pt-3">
+                    <h4 class="text-primary">Coding Addict</h4>
+                    <div class="close-icon ">
+                        <i class=" fas fa-times text-danger fs-2"></i>
+                    </div>
+                </div>
+                <div class="pt-4 list">
+                    <p class="p-3 fw-bold fs-4">Home</p>
+                    <p class="p-3 fw-bold fs-4">About</p>
+                    <p class="p-3 fw-bold fs-4">Contact</p>
+                    <p class="p-3 fw-bold fs-4">Projects</p>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <!-- end Sidebar -->
+    <!-- start navbar  -->
+
+    <div class="container p-3">
+        <div class="navbar d-flex justify-content-between align-items-center align-content-center">
+            <h2 class="text-primary">Coding Addict</h2>
+            <ul class="list-unstyled d-flex align-items-center justify-content-center mt-0">
+                <li class="fs-4 px-3">Home</li>
+                <li class="fs-4 px-3">About</li>
+                <li class="fs-4 px-3">Contact</li>
+                <li class="fs-4 px-3">Projects</li>
+            </ul>
+            <div class="icons">
+                <i class="px-1 fs-4 text-primary fa-brands fa-facebook"></i>
+                <i class="px-1 fs-4 text-primary fa-brands fa-twitter"></i>
+                <i class="px-1 fs-4 text-primary fa-brands fa-linkedin"></i>
+                <i class="px-1 fs-4 text-primary fa-brands fa-youtube"></i>
+                <i class="px-1 fs-4 text-primary fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar  -->
+
+    <!-- Start Model content -->
+    <div class="modal-container">
+        <div class="overflow fs-1 fw-bold d-none">
+            <i class="fa-solid fa-xmark position-absolute"></i>
+            <h1>Modal Content</h1>
+        </div>
+        <div class="text">
+            <h2 class="">Modal Project</h2>
+            <button class="btn btn-outline-primary text-center fs-1 my-4 modal-button">Open Modal</button>
+        </div>
+    </div>
+    <!-- end Model content -->
+    <!-- start card  -->
+    <div class="app">
+        <div class="container">
+            <div class="card">
+                <div class="header">
+                    <img src="/imgs/adidas-logo-png-2365.png" alt="">
+                    <i class="fa-solid fa-heart"></i>
+                    <!-- <i class="fa-regular fa-heart"></i> -->
+                </div>
+                <img src="/imgs/photo-1.png" class="shoes" alt="">
+                <div class="text">
+                    <h4 class="fw-bold fs-2">ADIDAS</h4>
+                    <p class="lh-lg fs-4 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eaque consectetur dolores nemo
+                        ea perspiciatis, ab ex deleniti. Atque, sint?</p>
+                </div>
+                <div class="starts">
+                    <i class="text-warning fs-4 fa-solid fa-star"></i>
+                    <i class="text-warning fs-4 fa-solid fa-star"></i>
+                    <i class="text-warning fs-4 fa-solid fa-star"></i>
+                    <i class="text-warning fs-4 fa-solid fa-star"></i>
+                    <i class="text-warning fs-4 fa-solid fa-star"></i>
+                </div>
+                <div class="price mt-2 d-flex justify-content-between align-items-center">
+                    <div class="left">
+                    <i class="yellow fs-4 px-1 text-warning fa-sharp fa-solid fa-circle"></i>
+                    <i class="blue fs-4 px-1  text-primary fa-sharp fa-solid fa-circle"></i>
+                    <i class="red fs-4 px-1  text-danger fa-sharp fa-solid fa-circle"></i>
+                    </div>
+                    <div class="right fs-3 fw-bold">
+                        $13.00
+                    </div>
+                </div>
+                <button class="btn btn-outline-dark mt-2">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- end card  -->
+
+    <script src="/js/main.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
