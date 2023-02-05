@@ -161,14 +161,14 @@ yellowIcon.onclick = function () {
 
 redIcon.onclick = function () {
     app.style.backgroundColor = "red";
-    shoesImg.src = "/imgs/photo-3.png";
+    shoesImg.src = "imgs/photo-3.png";
     price.innerHTML = "$15.00";
 
 }
 
 blueIcon.onclick = function () {
     app.style.backgroundColor = "blue";
-    shoesImg.src = "/imgs/photo-2.png";
+    shoesImg.src = "imgs/photo-2.png";
     price.innerHTML = "$17.00";
 
 }
