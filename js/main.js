@@ -155,7 +155,7 @@ let shoesImg = document.querySelector(".app .card img.shoes");
 let headerIcon = document.querySelector(".app .header i");
 yellowIcon.onclick = function () {
     app.style.backgroundColor = "yellow";
-    shoesImg.src = "/imgs/photo-1.png";
+    shoesImg.src = "imgs/photo-1.png";
     price.innerHTML = "$13.00";
 }
 
